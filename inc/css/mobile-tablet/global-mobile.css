@@ -1,0 +1,100 @@
+@media (max-width:991px) {
+    section h1{
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+    section h2,section.banner .bottom-content p.number{
+        font-size: 40px !important;
+        line-height: 60px !important;
+    }
+    section h3{
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    section h4{
+        font-size: 35px !important;
+        line-height: 40px !important;
+    }
+    footer .logo{
+        margin: 0 auto 50px auto;
+    }
+}
+@media (max-width:767px) {
+    section{
+        padding: 50px 20px;
+    }
+    section h1{
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    section h2,section.banner .bottom-content p.number{
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+    section h3{
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    section h4{
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+    footer{
+        padding: 50px 20px;
+    }
+    footer .menu>.row>.col{
+        width: 50%;
+        max-width: fit-content !important;
+    }
+    footer .menu>.row>.col .content>.row{
+        flex-direction: column;
+    }
+    .hellowbar span,.hellowbar input#Submit,.hellowbar input{
+        width: 100%;
+        max-width: 100%;
+    }
+    .hellowbar.sticky-top{
+        height: 60px;
+        transition: height .5s;
+        overflow: hidden;
+    }
+    .hellowbar.sticky-top.expanded {
+        height: 271px;
+      }
+    .hellowbar.sticky-top button{
+        border-radius: 50%;
+        border: none;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hellowbar.sticky-top .rotate {
+        -moz-transition: all .5s linear;
+        -webkit-transition: all .5s linear;
+        transition: all .5s linear;
+    }
+    .hellowbar.sticky-top .rotate.down {
+        -moz-transform:rotate(90deg);
+        -webkit-transform:rotate(90deg);
+        transform:rotate(180deg);
+    }
+}
+@media (max-width:575px) {
+    footer .menu>.row>.col{
+        width: 100%;
+        max-width: 100% !important;
+    }
+    footer .menu>.row,footer .menu>.row>.col .content>.row{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .menu>.row *{
+        text-align: center;
+        width: 100%;
+    }
+    footer .menu>.row{
+        gap: 50px 0;
+    }
+}

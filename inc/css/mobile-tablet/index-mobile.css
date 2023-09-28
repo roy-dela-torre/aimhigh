@@ -1,0 +1,72 @@
+@media (max-width:991px) {
+    section.banner .bottom-content{
+        flex-wrap: wrap;
+        gap: 30px 0;
+    }
+    section.banner .carousel-caption{
+        inset: 0;
+        padding: 70px 30px;
+        max-width: 100%;
+        width: 100%;
+    }
+    section.banner img.d-block.w-100{
+        min-height: 600px;
+        border-bottom-right-radius: 100px
+    }
+    section.service .group-content .row>div:last-child .content,section.why-choose-us,section.service,section.carousel-template,section.featured-news-and-events,section.inuire-now{
+        border-radius: 150px 0;
+    }
+    section.about-us .content{
+        max-width: 100%;
+        margin: 0;
+        padding: 70px 30px;
+    }
+    section.about-us img{
+        margin-bottom: 30px;
+    }
+    section.featured-news-and-events .feature-news,section.featured-news-and-events .feature-news img{
+        max-width: 100%;
+    }
+    section.featured-news-and-events .wrapper>.row{
+        gap: 26px 0;
+    }
+    section.inuire-now input:not(input[type="submit"]), section.inuire-now textarea,section.inuire-now .contact-detail{
+        max-width: 100%;
+    }
+    section.latest-blogs .row,section.inuire-now .row{
+        gap: 30px 0;
+    }
+}
+@media (max-width:767px) {
+    section.banner .bottom-content{
+        padding: 50px 20px;
+    }
+    section.facility .owl-carousel .row{
+        flex-direction: column;
+        gap: 50px 0;
+    }
+    section.facility .owl-carousel .row>img, section.facility .owl-carousel .row>div{
+        width: 100% !important;
+    }
+    section.facility .owl-stage-outer{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:575px) {
+    section.banner img.d-block.w-100{
+        min-height: 650px;
+    }
+    section.carousel-template img,section.latest-blogs .content{
+        max-width: 100%;
+    }
+}
+@media (max-width:420px) {
+    section.banner img.d-block.w-100{
+        min-height: 700px;
+    }
+}
+@media (max-width:390px) {
+    section.banner img.d-block.w-100{
+        min-height: 800px;
+    }
+}

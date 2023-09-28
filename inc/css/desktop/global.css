@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@400;700&family=Sora:wght@300;800&display=swap');
+.hellowbar{
+    padding: 12px 0;
+    background: var(--blue-shade, linear-gradient(90deg, #091E3A 0%, #2F80ED 50%, #2D9EE0 100%));
+}
+.hellowbar form p{
+    display: flex;
+    gap: 10px 30px;
+    margin-bottom: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+span.wpcf7-spinner{
+    display: none;
+}
+.hellowbar input{
+    border-radius: 5px;
+    background: #FFF;
+    padding: 5px 15px;
+    color: #BDBDBD;
+    text-align: left;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+    max-width: 210px;
+}
+.hellowbar .wrapper{
+    max-width: 1530px;
+    margin: 0 auto;
+}
+.hellowbar .mainwrapper{
+    max-width: 1308px;
+}
+.hellowbar h5{
+    color: #FFF;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.hellowbar input#Submit{
+    border-radius: 10px;
+    background: var(--Linear, linear-gradient(60deg, #E08100 0%, #FFC000 54.69%, #FFD748 100%));
+    padding: 15px 20px;
+    color: var(--Style, #194887);
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.hellowbar form.wpcf7-form.init{
+    margin-bottom: 0;
+}
+.hellowbar .mainwrapper>.row{
+    gap: 24px 0;
+    align-items: center;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary{
+    max-width: 1530px;
+    margin: 0 auto;
+    background-color: transparent !important;
+    padding: 0;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary a{
+    padding: 30px 0;
+    color: var(--txt-blk, #2A2D32);
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary ul#menu-navmenu{
+    width: 100%;
+    max-width:683px;
+    justify-content: space-between;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary div#navbarSupportedContent{
+    max-width: 967px;
+    justify-content: space-between;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary form.d-flex{
+        max-width: 225px;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary .input-group{
+    flex-wrap: nowrap;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #F4F4F4;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary form input{
+    border: none;
+    background-color: transparent;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary form input::placeholder{
+    color: #8F8F8F;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary button.btn.btn-primary{
+    background-color: transparent;
+    border: none;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary button.btn.btn-primary i{
+    color: #2A2D32;
+    font-size: 15px;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary li{
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
+
+
+section h1{
+    font-family: 'Sora';
+    font-size: 60px;
+    font-style: 65px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section h2{
+    font-family: 'Sora';
+    font-size: 50px;
+    font-style: 60px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+section h3{
+    font-family: 'Sora';
+    font-size: 40px;
+    font-style: 50px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section h4{
+    font-family: 'Sora';
+    font-size: 30px;
+    font-style: 40px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section h5{
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+section p{
+    font-family: 'Sora';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    text-transform: capitalize;
+}
+section .yellow-btn{
+    color: var(--Style, #194887);
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #ED9C2F;
+    background: var(--Linear, linear-gradient(60deg, #E08100 0%, #FFC000 54.69%, #FFD748 100%));
+    text-decoration: none;
+    text-align: center;
+}
+section .yellow-btn:hover{
+    transition: 1s ease all;
+    border: 2px solid #ED9C2F;
+    background: transparent;
+}
+section .transparent-btn{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+section .wrapper,footer .wrapper{
+    max-width: 1530px;
+    margin: 0 auto;
+}
+section img{
+    width: 100%;
+    max-width: 100%;
+}
+section{
+    padding: 100px 0;
+}
+section a{
+    color: var(--Style, #194887);
+    font-family: 'Sora';
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+footer{
+    padding: 100px 0;
+    background: url('../../../assets/img/homepage/footer-bg.jpg')no-repeat center center/cover;
+}
+footer .logo{
+    width: fit-content;
+    max-width: 297px;
+}
+footer .logop img{
+    margin-bottom: 15px;
+}
+footer .logo p{
+    color: #FFF;
+}
+footer a{
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+footer h5{
+    margin-bottom: 35px;
+    color: #FFF;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer hr{
+    border-top: 1px solid #FFF;
+    margin: 50px 0 20px 0;
+    opacity: 1;
+}
+footer p.copyr-right{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+footer .row{
+    justify-content: space-between;
+}
+footer .menu{
+    max-width: 960px;
+    margin: auto 0 auto auto;
+}
+footer .menu .col{
+    width: fit-content;
+}
+footer .menu>.row>.col:first-child{
+    max-width: 342px;
+}
+footer .menu>.row>.col:first-child .col:first-child{
+    max-width: 195px;
+}
+footer .menu>.row>.col:first-child .col:last-child{
+    max-width: fit-content;
+}
+footer .menu>.row>.col:nth-child(2){
+    max-width: 119px;
+}
+footer .menu>.row>.col:last-child{
+    max-width: 400px;
+}
+footer .content a{
+    display: block;
+    margin-bottom: 20px;
+}
+@media (max-width:1700px) {
+    section .wrapper,footer .wrapper{
+        padding: 0 5%;
+    }
+}
+@media (max-width:1366px) {
+    
+}
+@media (max-width:1200px) {
+    section .wrapper,footer .wrapper{
+        padding: 0;
+    }
+    section{
+        padding: 70px 30px;
+    }
+    footer{
+        padding: 70px 30px;
+    }
+}
