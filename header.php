@@ -11,16 +11,18 @@
 <div class="hellowbar sticky-top">
   <div class="container-fluid">
     <div class="wrapper">
-      <div class="mainwrapper">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="d-flex justify-content-between align-items-center">
-              <h5 class="mb-0">Horem ipsum dolor sit </h5>
-              <button id="rotateButton" class="d-md-none"><i class="fa fa-angle-up rotate"></i></button>
+      <div class="row">
+        <div class="mainwrapper">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Horem ipsum dolor sit </h5>
+                <button id="rotateButton" class="d-lg-none"><i class="fa fa-angle-up rotate"></i></button>
+              </div>
             </div>
-          </div>
-          <div class="col-md-9">
-            <?php echo do_shortcode('[contact-form-7 id="69400e5" title="header form"]')?>
+            <div class="col-lg-9">
+              <?php echo do_shortcode('[contact-form-7 id="69400e5" title="header form"]')?>
+            </div>
           </div>
         </div>
       </div>
@@ -29,7 +31,7 @@
 </div>
 <nav class="navbar navbar-expand-xxl bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
+    <a class="navbar-brand pt-0 pb-0" href="<?php echo get_home_url(); ?>">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/homepage/navlogo.png" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,9 +43,9 @@
             <div class="input-group d-flex">
                 <form role="search" method="get" class="d-flex searchform" role="search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                   <div class="form-outline">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="<?php echo get_search_query(); ?>" name="s" id="s">
+                    <input class="form-control me-2 mb-0 p-0" type="search" placeholder="Search Here..." aria-label="Search" value="<?php echo get_search_query(); ?>" name="s" id="s">
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" class="btn btn-primary p-0">
                       <i class="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </form>

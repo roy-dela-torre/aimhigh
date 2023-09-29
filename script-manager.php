@@ -12,7 +12,7 @@
             var dropdownIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none"> <path d="M4.99997 8.35018C4.82075 8.35018 4.64155 8.28175 4.50492 8.14518L0.205141 3.84536C-0.0683805 3.57184 -0.0683805 3.12837 0.205141 2.85496C0.478552 2.58155 0.921933 2.58155 1.19548 2.85496L4.99997 6.65968L8.80449 2.85509C9.07801 2.58168 9.52135 2.58168 9.79474 2.85509C10.0684 3.1285 10.0684 3.57197 9.79474 3.84549L5.49503 8.14531C5.35832 8.28191 5.17913 8.35018 4.99997 8.35018Z" fill="#2A2D32"/></svg>`
             $('form.wpcf7-form.init p br').remove()
 
-            $('ul#menu-navmenu li:lt(3) a').after(dropdownIcon)
+            $('ul#menu-navmenu li#menu-item-8 a,ul#menu-navmenu li#menu-item-9 a,ul#menu-navmenu li#menu-item-10 a').after(dropdownIcon)
             var bottomContentHeight = $('.bottom-content').outerHeight();
             $('section.banner .bottom-content').css('bottom',-((bottomContentHeight/2)+40))
             $("section.banner.p-0").css("height",($("section.banner.p-0").height()+((bottomContentHeight/2)+40)))
@@ -131,6 +131,8 @@
                 $('button#rotateButton i').toggleClass("down");
                 $(".hellowbar").toggleClass("expanded");
             });
+
+            $("span.wpcf7-not-valid-tip,.hellowbar form p br").remove()
 
         // About us script
         <?php elseif(is_page('about-us')):?>

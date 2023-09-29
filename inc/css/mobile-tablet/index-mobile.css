@@ -30,7 +30,7 @@
     section.featured-news-and-events .wrapper>.row{
         gap: 26px 0;
     }
-    section.inuire-now input:not(input[type="submit"]), section.inuire-now textarea,section.inuire-now .contact-detail{
+    section.inuire-now input:not(input[type="submit"]), section.inuire-now textarea,section.inuire-now .contact-detail,section.latest-blogs img{
         max-width: 100%;
     }
     section.latest-blogs .row,section.inuire-now .row{

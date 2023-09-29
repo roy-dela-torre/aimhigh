@@ -15,7 +15,7 @@ $homeUrl = get_home_url();
                         <img loading="lazy" src="<?php echo $imgSrc; ?>" class="d-block w-100 lazyload" alt="...">
                         <div class="carousel-caption">
                             <div class="content">
-                                <h1>Horem ipsum dolor sit amet consectetur adipiscing elit</h1>
+                                <<?php echo $active ? 'h1' : 'h2'; ?>>Horem ipsum dolor sit amet consectetur adipiscing elit</<?php echo $active ? 'h1' : 'h2'; ?>>
                                 <p>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                                 <div class="group-buttons">
                                     <a href="<?php echo $homeUrl ;?>/products/" target="_blank" rel="noopener noreferrer" class="yellow-btn">View Products</a>

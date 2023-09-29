@@ -65,7 +65,7 @@
                 </div>
                 <div class="bottom">
                     <hr>
-                    <p class="copyr-right">Copyright © 2022 - <?php echo date('Y')?> Aim High Tolling Solutions Inc. | <a href="https://seo-hacker.com/seo-philippines/" target="_blank" rel="noopener noreferrer">SEO</a> <a href="https://seo-hacker.com/" target="_blank" rel="noopener noreferrer"> bySEO-Hacker</a>. Optimized and maintained by <a href="https://sean.si/" target="_blank" rel="noopener noreferrer">Sean Si</a></p>
+                    <p class="copyr-right">Copyright © 2022 - <?php echo date('Y')?> Aim High Tolling Solutions Inc. | <a href="https://seo-hacker.com/seo-philippines/" target="_blank" rel="noopener noreferrer">SEO</a> <a href="https://seo-hacker.com/" target="_blank" rel="noopener noreferrer"> by SEO-Hacker</a>. Optimized and maintained by <a href="https://sean.si/" target="_blank" rel="noopener noreferrer">Sean Si</a></p>
                 </div>
             </div>
         </div>

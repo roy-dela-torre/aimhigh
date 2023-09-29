@@ -1,4 +1,6 @@
-<?php get_header();?>
+<?php get_header();
+/*Template Name: Thank You Page*/
+?>
 <section class="thankYou_main">
 	<div class="container">
 		<div class="content">

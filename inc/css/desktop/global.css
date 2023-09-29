@@ -6,20 +6,21 @@
 }
 .hellowbar form p{
     display: flex;
-    gap: 10px 30px;
     margin-bottom: 0;
+    gap: 10px 30px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: end;
 }
-span.wpcf7-spinner{
+
+.hellowbar span.wpcf7-spinner,.hellowbar .screen-reader-response{
     display: none;
 }
-.hellowbar input{
+.hellowbar input:not([type="submit"]){
     border-radius: 5px;
     background: #FFF;
     padding: 5px 15px;
-    color: #BDBDBD;
+    color: #000000;
     text-align: left;
     font-family: 'Sora';
     font-size: 16px;
@@ -30,12 +31,37 @@ span.wpcf7-spinner{
     border: none;
     max-width: 210px;
 }
+.hellowbar input:not([type="submit"])::placeholder{
+    color: #BDBDBD;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.hellowbar input[type="tel"]{
+    margin-right: 60px;
+}
 .hellowbar .wrapper{
     max-width: 1530px;
     margin: 0 auto;
 }
 .hellowbar .mainwrapper{
     max-width: 1308px;
+}
+.hellowbar .wpcf7-response-output{
+    color: #FFF;
+    margin-top: 10px;
+    font-family: 'Sora';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    text-align: center;
+}
+.hellowbar input:not([type="submit"]).invalid{
+    border: 1px solid red;
 }
 .hellowbar h5{
     color: #FFF;
@@ -45,10 +71,11 @@ span.wpcf7-spinner{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    padding: 0 12px;
 }
-.hellowbar input#Submit{
+.hellowbar input#Submit {
     border-radius: 10px;
-    background: var(--Linear, linear-gradient(60deg, #E08100 0%, #FFC000 54.69%, #FFD748 100%));
+    background: url('../../../assets/img/homepage/yello-btn.png')no-repeat center center/cover;
     padding: 15px 20px;
     color: var(--Style, #194887);
     font-family: 'Sora';
@@ -57,6 +84,13 @@ span.wpcf7-spinner{
     font-weight: 800;
     line-height: normal;
     text-transform: capitalize;
+    border: none;
+}
+.hellowbar input#Submit:hover {
+    border-radius: 10px;
+    padding: 13px 18px;
+    border: 2px solid #ED9C2F;
+    background: transparent;
 }
 .hellowbar form.wpcf7-form.init{
     margin-bottom: 0;
@@ -99,10 +133,18 @@ nav.navbar.navbar-expand-xxl.bg-body-tertiary .input-group{
     padding: 5px 10px;
     border-radius: 5px;
     background: #F4F4F4;
+    justify-content: space-between;
 }
 nav.navbar.navbar-expand-xxl.bg-body-tertiary form input{
     border: none;
     background-color: transparent;
+    color: #8F8F8F;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
 }
 nav.navbar.navbar-expand-xxl.bg-body-tertiary form input::placeholder{
     color: #8F8F8F;
@@ -125,46 +167,71 @@ nav.navbar.navbar-expand-xxl.bg-body-tertiary li{
     display: flex;
     align-items: center;
     gap: 0 5px;
+    position: relative;
 }
-nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
-nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
-nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
-nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
-nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
-nav.navbar.navbar-expand-xxl.bg-body-tertiary{}
-
+nav.navbar.navbar-expand-xxl.bg-body-tertiary ul.sub-menu{
+    border-radius: 15px;
+    background: white;
+    overflow: hidden;
+    position: absolute;
+    width: 271;
+    z-index: 2;
+    top: 65px;
+    overflow: hidden;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary ul.sub-menu li svg{
+    display: none;
+    padding: 0;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary ul.sub-menu li a{
+    padding: 0;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary ul.sub-menu li{
+    padding: 15px 20px;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary li:hover ul.sub-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary li:hover svg{
+    transform: rotate(180deg);
+}
+nav.navbar.navbar-expand-xxl.bg-body-tertiary ul.sub-menu{
+    display: none;
+}
 
 section h1{
     font-family: 'Sora';
     font-size: 60px;
-    font-style: 65px;
+    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 75px;
     text-transform: capitalize;
 }
 section h2{
     font-family: 'Sora';
     font-size: 50px;
-    font-style: 60px;
+    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 60px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 section h3{
     font-family: 'Sora';
     font-size: 40px;
-    font-style: 50px;
+    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 50px;
     text-transform: capitalize;
 }
 section h4{
     font-family: 'Sora';
     font-size: 30px;
-    font-style: 40px;
+    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 40px;
     text-transform: capitalize;
 }
 section h5{
@@ -193,13 +260,12 @@ section .yellow-btn{
     text-transform: capitalize;
     padding: 15px 20px;
     border-radius: 10px;
-    border: 2px solid #ED9C2F;
     background: var(--Linear, linear-gradient(60deg, #E08100 0%, #FFC000 54.69%, #FFD748 100%));
     text-decoration: none;
     text-align: center;
 }
 section .yellow-btn:hover{
-    transition: 1s ease all;
+    padding: 13px 18px;
     border: 2px solid #ED9C2F;
     background: transparent;
 }
@@ -243,9 +309,10 @@ footer{
 footer .logo{
     width: fit-content;
     max-width: 297px;
+    margin-bottom: 57px;
 }
-footer .logop img{
-    margin-bottom: 15px;
+footer .logo img{
+    margin-bottom: 16px;
 }
 footer .logo p{
     color: #FFF;
@@ -276,7 +343,7 @@ footer hr{
     margin: 50px 0 20px 0;
     opacity: 1;
 }
-footer p.copyr-right{
+footer p.copyr-right, footer p.copyr-right a{
     color: #FFF;
     text-align: center;
     font-family: 'Sora';
@@ -285,6 +352,9 @@ footer p.copyr-right{
     font-weight: 800;
     line-height: normal;
     text-transform: capitalize;
+}
+footer p.copyr-right a{
+    text-decoration: underline;
 }
 footer .row{
     justify-content: space-between;
@@ -320,8 +390,18 @@ footer .content a{
         padding: 0 5%;
     }
 }
+@media (max-width:1400px) {
+    nav.navbar.navbar-expand-xxl.bg-body-tertiary div#navbarSupportedContent{
+        max-width: 100%;
+    }
+}
 @media (max-width:1366px) {
-    
+    .hellowbar input[type="tel"]{
+        margin-right: 0;
+    }  
+    footer .logo{
+        margin-left: 0;
+    }
 }
 @media (max-width:1200px) {
     section .wrapper,footer .wrapper{
@@ -332,5 +412,8 @@ footer .content a{
     }
     footer{
         padding: 70px 30px;
+    }
+    .hellowbar input:not([type="submit"]){
+        max-width: 160px;
     }
 }

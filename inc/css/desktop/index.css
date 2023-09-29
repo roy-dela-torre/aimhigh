@@ -10,6 +10,9 @@ section.banner .carousel-caption{
 section.banner .carousel-caption .content{
     max-width: 928px;
 }
+section.banner .carousel-caption .content p{
+    margin-bottom: 20px;
+}
 section.banner h1,section.banner h2{
     color: #FFF;
     margin-bottom: 20px;
@@ -29,7 +32,6 @@ section.banner .group-buttons a.yellow-btn:hover{
 section.banner .carousel-indicators button.active,section.facility .owl-dots button.owl-dot.active,section.carousel-template .owl-dots button.owl-dot.active,section.foreign-clients .owl-dots button.owl-dot.active,section.our-client-says .owl-dots button.owl-dot.active{
     border-radius: 20px;
     background: #FFF;
-    transition: width .5s;
     width: 30px !important;
     height: 20px !important;
 }
@@ -41,6 +43,7 @@ section.banner .carousel-indicators button,section.facility .owl-dots button.owl
     margin: 0 !important;
     border: none !important;
     opacity: 1;
+    transition: width .5s;
 }
 section.banner .carousel-indicators{
     gap: 0 15px;
@@ -101,10 +104,15 @@ section.our-product .content{
     background: #F4F4F4;
     padding: 0 30px 30px 30px;
     height: 100%;
+    transition-duration: 1s;
+}
+section.our-product .content:hover{
+    background: #FFEBD3;
 }
 section.our-product img{
-    max-width: 188px;
+    max-width: 200px;
     max-height: 283px;
+    object-fit: contain;
     top: -52px;
     position: relative;
 }
